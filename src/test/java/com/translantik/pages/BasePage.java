@@ -1,5 +1,5 @@
 package com.translantik.pages;
-
+public class BasePage {
 import com.translantik.utilities.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
@@ -55,6 +55,7 @@ public abstract class BasePage {
         } catch (Exception e) {
             e.printStackTrace();
         }
+
 
     }
 
